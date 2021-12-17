@@ -86,7 +86,93 @@
 
 .section-1 main {
   height: calc(100vh - 62px - 40px);
-  background-color: red;
+  padding: 180px 0;
+}
+
+.section-1 main .text-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 80px;
+}
+
+.section-1 main .text-1 h1 {
+  font-family: "Poppins Medium";
+  font-size: 80px;
+  line-height: 134%;
+  letter-spacing: -2.50105px;
+  margin-bottom: 57px;
+}
+
+.section-1 main .text-1 p {
+  font-size: 22px;
+  line-height: 200%;
+  color: #666666;
+  margin-bottom: 48px;
+}
+
+.section-1 main .knopkala {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 26px;
+  margin-top: -140px;
+}
+
+.section-1 main .knopkala .btn-1 {
+  padding: 20px 50px;
+  color: #FFFFFF;
+  text-decoration: none;
+  background: #FF7132;
+  border-radius: 40px;
+}
+
+.section-1 main .knopkala .btn-1:hover {
+  background-color: white;
+  color: #FF7132;
+}
+
+.section-1 main .knopkala .btn-2 {
+  padding: 20px 40px 20px 50px;
+  color: #444444;
+  text-decoration: none;
+  background-color: white;
+  border: 1px solid #FF7132;
+  border-radius: 40px;
+}
+
+.section-1 main .knopkala .btn-2:hover {
+  background-color: #FF7132;
+  color: white;
+}
+
+.section-1 main .info {
+  width: 349px;
+  height: 108px;
+  margin-top: -130px;
+  margin-left: 890px;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.8);
+  -webkit-box-shadow: 10px 20px 100px rgba(136, 136, 136, 0.2);
+          box-shadow: 10px 20px 100px rgba(136, 136, 136, 0.2);
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 22px;
+}
+
+.section-1 main .info .text-b h1 {
+  font-style: "Poppins Regular";
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 134%;
+  color: #444444;
 }
 
 body {

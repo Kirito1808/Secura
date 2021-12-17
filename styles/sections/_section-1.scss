@@ -47,7 +47,85 @@
 
     main {
         height: calc(100vh - 62px - 40px);
-        background-color: red;
+        padding: 180px 0;
     
+        .text-1 {
+            display: flex;
+            gap: 80px;
+
+            h1 {
+                font-family: $fw-500;
+                font-size: 80px;
+                line-height: 134%;
+                letter-spacing: -2.50105px;
+                margin-bottom: 57px;
+            }
+
+            p {
+                font-size: 22px;
+                line-height: 200%;
+                color: #666666;
+                margin-bottom: 48px;
+            }
+        }
+
+        .knopkala {
+            display: flex;
+            gap: 26px;
+            margin-top: -140px;
+
+            .btn-1 {
+                padding: 20px 50px;
+                color: #FFFFFF;
+                text-decoration: none;
+                background: #FF7132;
+                border-radius: 40px;
+
+                &:hover {
+                    background-color: white;
+                    color: #FF7132;
+                }
+            }
+
+            .btn-2 {
+                padding: 20px 40px 20px 50px;
+                color: #444444;
+                text-decoration: none;
+                background-color: white;
+                border: 1px solid #FF7132;
+                border-radius: 40px;
+
+                &:hover {
+                    background-color: #FF7132;
+                    color: white;
+                }
+            }
+        }
+
+        .info {
+            width: 349px;
+            height: 108px;
+            margin-top: -130px;
+            margin-left: 890px;
+            position: absolute;
+            background: rgba(255, 255, 255, 0.8);
+            box-shadow: 10px 20px 100px rgba(136, 136, 136, 0.2);
+            backdrop-filter: blur(50px);
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            gap: 22px;
+
+            .text-b {
+
+                h1 {
+                    font-style: $fw-400;
+                    font-weight: 600;
+                    font-size: 28px;
+                    line-height: 134%;
+                    color: #444444;
+                }
+            }
+        }
     }
 }
